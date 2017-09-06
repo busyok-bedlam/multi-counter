@@ -8,8 +8,7 @@ import counterApp from './reducers/index';
 import { Provider } from 'react-redux';
 import * as actions from './actions/index';
 let store = new createStore(counterApp);
-store.dispatch(actions.addAction());
-store.dispatch(actions.addAction());
+
 console.log(store.getState().counters);
 ReactDOM.render(
   <Provider store={store}>

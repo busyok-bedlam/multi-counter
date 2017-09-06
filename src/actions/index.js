@@ -1,7 +1,6 @@
 import * as constants from '../constants/index';
 let INITIAL_ID = 0;
 const addAction = ()=>{
-//  if(INITIAL_ID>4) return {type:"null"};
     return {
       type: constants.ADD_COUNTER,
       id: INITIAL_ID++,

@@ -12,7 +12,7 @@ const Counter = ({counter,dispatch})=>{
       <span onClick={minus} className="minus" role="img" aria-label="minus">&#10134;</span>
       <span className="counter-elem">{counter.count}</span>
       <span onClick={plus} className="plus" role="img" aria-label="plus">&#10133;</span>
-      <span onClick={close} className="close" role="img" aria-label="plus">&#10006;</span>
+      <span onClick={close} className="close" role="img" aria-label="close">&#10006;</span>
     </div>
   )
 }

@@ -21,7 +21,8 @@ const counter = (state={},action)=>{
       case constants.MINUS_COUNT :
         return state.map(item=>counter(item,action));
       case constants.REMOVE_COUNTER :
-        return [...state.slice(0,action.id),...state.slice(action.id+1)];
+        return state.filter(item=>item.id!==action.id);
+        // return [...state.slice(0,action.id),...state.slice(action.id+1)];
       default: return state;
   }
 }
