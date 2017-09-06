@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.counters{
+
+}
+.container{
+margin: 0 auto;
+width: 30%;
+display: flex;
+flex-direction: column;
+}
+.addCounter{
+  display: block;
+  margin: 0 auto;
+  background: #0AAFB4;
+}
+.addCounter:hover{
+  background: #254C79;
+  color: #fff;
+}
+.addCounter:active{
+  background: #792576;
+  color: #fff;
+}
